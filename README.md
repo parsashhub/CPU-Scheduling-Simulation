@@ -149,16 +149,3 @@ Average Waiting Time: 21.40
 Average Response Time: 21.40
 ----------------------------------------------------------------------------------
 ```
-
-## Extending the Project
-
-To add a new scheduling algorithm:
-
-1. Create header and implementation files for the algorithm
-2. Implement the scheduling function with the same signature as existing algorithms
-3. Add the algorithm to `main.c` with appropriate command-line options
-4. Update the Makefile to include the new source files
-
-## License
-
-This project is open source and available under the MIT License.
